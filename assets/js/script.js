@@ -1,11 +1,11 @@
 
 // Questa per ora la definiamo qua, in futuro la leggeremo dal serve, da un database...
 let productsList = [
-  { name: 'Scarpe da golf', price: 99.99, image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmojehmen.com%2Fwp-content%2Fuploads%2F2019%2F09%2FGolf-shoe_2-1600x1000.jpg&f=1&nofb=1&ipt=4f06d1b9d07e00d60a8a1ab79eb51db28fdb0b52c3a486ff2702c06a22d00d50&ipo=images" },
-  { name: 'Scarpe da trekking', price: 49.99, image: "https://gloimg.drlcdn.com/L/pdm-provider-img/straight-product-img/20190311/T038416/T0384160033/source-img/115640-8384.jpg" },
-  { name: 'Scarpe da trekking', price: 132, image: "https://gloimg.drlcdn.com/L/pdm-provider-img/straight-product-img/20190311/T038416/T0384160033/source-img/115640-8384.jpg" },
-  { name: 'Scarpe da trekking', price: 123, image: "https://gloimg.drlcdn.com/L/pdm-provider-img/straight-product-img/20190311/T038416/T0384160033/source-img/115640-8384.jpg" },
-  { name: 'Scarpe da golf', price: 120, image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmojehmen.com%2Fwp-content%2Fuploads%2F2019%2F09%2FGolf-shoe_2-1600x1000.jpg&f=1&nofb=1&ipt=4f06d1b9d07e00d60a8a1ab79eb51db28fdb0b52c3a486ff2702c06a22d00d50&ipo=images" },
+  { name: 'Scarpe da golf', price: 99.99, image: "https://picsum.photos/300" },
+  { name: 'Scarpe da trekking', price: 49.99, image: "https://picsum.photos/300/300" },
+  { name: 'Scarpe da trekking', price: 132, image: "https://picsum.photos/300/300" },
+  { name: 'Scarpe da trekking', price: 123, image: "https://picsum.photos/300/300" },
+  { name: 'Scarpe da golf', price: 120, image: "https://picsum.photos/300" },
 ]
 // Ma comunque avrò sempre in mano una lista di oggetti!
 

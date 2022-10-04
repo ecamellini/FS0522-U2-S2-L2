@@ -21,10 +21,10 @@
 }
 
 .container-fluid {
-  max-width: 992px;
+  max-width: 960px;
   background-color: var(--pippo);
 }
 
 .product-card {
-  max-width: 220px;
+  width: 300px;
 }
