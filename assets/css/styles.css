@@ -1,0 +1,30 @@
+:root {
+  /* Posso definire una variabile in CSS.
+  Se definisco una variabile che esiste già, la sovrascrivo.
+
+  Quindi, volendo, qua posso sovrascrivere variabili definite da Bootstrap, per esempio.
+  */
+
+  --primary: orangered;
+  --primary-light: orange;
+  /* È come se facessi let primary = indigo - se stessimo scrivendo JS */
+}
+
+.btn-primary {
+  /* Qua uso il valore della variabile, DEVO usare var(....) */
+  --bs-btn-bg: var(--primary);
+  --bs-btn-hover-bg: var(--primary-light);
+  --bs-btn-border-color: var(--primary);
+  --bs-btn-hover-border-color: var(--primary-light);
+  --bs-btn-active-bg: var(--primary);
+  --bs-btn-active-border-color: var(--primary);
+}
+
+.container-fluid {
+  max-width: 992px;
+  background-color: var(--pippo);
+}
+
+.product-card {
+  max-width: 220px;
+}
